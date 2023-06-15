@@ -8,6 +8,9 @@ help [git --help]
 
 klonowanie/cloning [git clone https://github.com/...]
 
+status - sprawdza zmienione, ale nie trackowane (zapisane z perspektywy gita) pliki [git status]
+  
+trackowanie plikow [git add <plik>][git add -A]
 
 ### branch
 
@@ -18,12 +21,6 @@ sprawdzanie obecnego brancha [git branch]
 tworzenie nowego brancha  [git checkout -b <nawzwa-nowego-brancha>]
   
 zmiana na konkretnego brancha [git checkout <nazwa-brancha>]
-  
-  
-status - sprawdza zmienione, ale nie trackowane (zapisane z perspektywy gita) pliki [git status]
-  
-trackowanie plikow [git add <plik>][git add -A]
-  
   
 ### commit:
   
